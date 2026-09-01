@@ -743,7 +743,5 @@ numbers : mines nearby
         stringmodes=['easy','medium','hard','extreme']
         c1.execute("insert into {} values('{}','{}')".format(stringmodes[mode-1]+'leaderboard',username,gametime))
         c1.execute('commit')
-    if dec2==4:
-        break
 
 
