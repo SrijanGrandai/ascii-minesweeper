@@ -6,14 +6,16 @@ Features include:
   - Timer (the games are timed)
   - Save game
 
+
+
 Prerequisites
 If you want to try running the game on your computer, you will have to install MySQL and connect it to python.
 You can install MySQL here:
 https://dev.mysql.com/downloads/installer/
 
 To link python to MySQL, you will have to run this command in your command prompt:
-pip install mysql-connector-python
 
+pip install mysql-connector-python
 
 
 Core Logic & Implementation
