@@ -6,7 +6,7 @@ Features include:
   - Timer (the games are timed)
   - Save game
 
-#Prerequisites
+Prerequisites
 If you want to try running the game on your computer, you will have to install MySQL and connect it to python.
 You can install MySQL here:
 https://dev.mysql.com/downloads/installer/
@@ -16,7 +16,7 @@ pip install mysql-connector-python
 
 
 
-##Core Logic & Implementation
+Core Logic & Implementation
 
 - This game uses lists to store the current state of the board (hidden, flagged and revealed cells). Cells are identified by pure numbers. The user enters coordinates in the form (x,y) and it is converted to pure numbers during processing.
 
